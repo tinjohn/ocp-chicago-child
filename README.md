@@ -1,9 +1,6 @@
 # ocp-chicago-child-theme-wp
 ocp-chicago-child is a Wordpress child theme for the [Chicago theme](https://de.wordpress.org/themes/chicago/) by Catch Plugins
 
-![alt text](ocp-chicago-child/screenshot.png "Screenshot of the child theme")
-
-
 Due to little success with the manual creation of a working child theme based on an already customized chicago theme, the skeleton was created with the help of Catch Plugins own child theme generator WordPress plugin: [Generate Child Theme](https://de.wordpress.org/plugins/generate-child-theme/).  
 
 Requirements
@@ -19,6 +16,7 @@ Installation
 * additional customization in the WordPress theme customizer:
   * add header image
   * set color (color pane) to light / hell
+  * links are blue by default, link color red is already added but not 'activated' in style.css
 
 Troubleshooting
 ----------------
@@ -28,3 +26,7 @@ Troubleshooting
 About
 ---------------
 * [Tina John](https://github.com/tinjohn) (author)
+
+Screenshot
+---------------
+![ScreenShot](ocp-chicago-child/screenshot.png)
