@@ -11,11 +11,11 @@ Requirements
 Installation
 -------------
 * copy the ocp-chicago-child folder to your wp-content/themes/ directory
-* check your Design settings page for the new appearing theme ocp-chicago-child
+* check your theme settings page for the new appearing theme ocp-chicago-child
 * activate the ocp-chicago-child theme
-* additional customization in the Wordpress customizer
-*   add header image
-*   set color (color pane) to light / hell
+* additional customization in the WordPress theme customizer
+  * add header image
+  * set color (color pane) to light / hell
 
 
 About
