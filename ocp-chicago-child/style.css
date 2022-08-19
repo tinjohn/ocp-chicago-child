@@ -1,0 +1,191 @@
+/*
+Theme Name: ocp-chicago-child
+Author: Tina John
+Description: Onlinecampus Pflege theme child theme chicago
+Version: 1.0
+Template: chicago
+
+This is the child theme for Chicago theme, generated with Generate Child Theme plugin by catchthemes.
+
+(optional values you can add: Theme URI, Author URI, License, License URI, Tags, Text Domain)
+*/
+
+
+:root {
+  --ocp-color: #d72733;
+	--ocp-color-gedeckt: #921a22;
+}
+
+.tnp-subscription label {
+    display: block;
+    color: inherit;
+    /* font-size: 14px; */
+    font-weight: normal;
+    line-height: normal;
+    padding: 5px;
+    margin: 0;
+}
+
+.formsubmitbuttons, .wpforms-form button[type=submit] {
+    background-color: #d72733 !important;
+    border: 1px solid #ddd;
+    color: #fff !important;
+    font-size: 1em;
+    padding: 10px 15px;
+    text-transform: none;
+    letter-spacing: 0px;
+      line-height: 1.7;
+}
+
+.wrapper, .site-content {
+width: 100%;
+}
+.widget a {
+	font-weight: bold;
+}
+
+.wp-block-image figure a img:hover {
+	filter: brightness(80%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+
+#site-navigation .wrapper {
+	width: 100%;
+	background-color: #a3a4a5;
+}
+
+.main-navigation a {
+	font-family: "Open Sans",sans-serif;
+	font-weight: 200;
+	font-size: 1.3rem;
+	letter-spacing: .8px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.main-navigation a:hover {
+	font-family: "Open Sans",sans-serif;
+	font-weight: 200;
+	font-size: 1.3rem;
+	letter-spacing: .8px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: var(--ocp-color);
+	transition-duration: 500ms;
+	transition-property: color;
+}
+
+.content-area {
+	border: none;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding-right: 10px;
+	position: relative;
+	width: 82%;
+	z-index: 2;
+	border-radius: 150px 150px 0 0;
+}
+
+.widget-area {
+	float: right;
+	width: 14%;
+}
+
+.site-main {
+	border: none;
+}
+
+.entry-content {
+	border: none;
+}
+
+.wp-post-image {
+	padding: 10px 10px 0px 40%;
+}
+
+.entry-header {
+	display: none;
+}
+a, .comment-metadata a {
+  /* without !imporant remains blue from chicago light.css
+  anyway kind of nice */
+	color: #921a22;
+	text-decoration: none;
+}
+a:hover, .comment-metadata a:hover {
+	color: var( --ocp-color );
+}
+.entry-content a:not(.more-link):not(.button):not(.wp-block-button__link), .entry-summary a:not(.more-link):not(.button):not(.wp-block-button__link), .ew-about a:not(.more-link):not(.button), .widget_text a:not(.more-link):not(.button), .comment-content a {
+	text-decoration: none;
+}
+.nostyle {
+	margin-left: 0px;
+ list-style: none;
+}
+.site-info, .site-info a, .site-info a:hover  {
+    color: #000;
+}
+.site-copyright {
+	color: #fff;
+}
+.attachment-thumbnail {
+	filter: brightness(100%);
+}
+.attachment-thumbnail:hover { 	filter: brightness(75%);
+}
+.ocpliststyle {
+  background-color: #fff;
+	border-radius: 10% 0 0 0;
+	border: solid;
+	border-width: 10px 0px 1px 0px;
+	border-color: var(--ocp-color) var(--ocp-color) #b1b1b1;
+}
+
+.ocpliststyle li {
+	list-style: none;
+	padding: 30px 15px;
+}
+.ocpliststyle a:hover {
+color: var(--ocp-color-gedeckt);
+}
+
+#breadcrumb-list span{
+	border: none;
+}
+#breadcrumb-list {
+	background-color: inherit;
+}
+
+#breadcrumb-list .breadcrumb-current {
+	background-color: #fff;
+	border: solid 1px;
+	border-color: #a1a1a1;
+}
+
+
+.nav-links a:hover, .posts-navigation .wp-pagenavi span.current, .posts-navigation .wp-pagenavi a:hover {
+	background-color: #fff;
+}
+
+.wp-block-file .wp-block-file__button, .wp-block-button__link {
+    background-color: #a1a1a1;
+    color: #fff;
+}
+
+.wp-block-file .wp-block-file__button:hover, .wp-block-file .wp-block-file__button:focus, .wp-block-button__link:hover, .wp-block-button__link:focus {
+    background-color: var(--ocp-color-gedeckt);
+}
+
+@media screen and (max-width: 790px) {
+	#content .content-area {
+		width: 100%;
+	}
+	.ocpliststyle {
+  background-color: #fff;
+	border-radius: 0% 0% 5% 5%;
+ }
+
+
+}

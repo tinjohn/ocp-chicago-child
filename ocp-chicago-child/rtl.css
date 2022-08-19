@@ -1,0 +1,9 @@
+/*
+Theme Name:     ocp-chicago-child
+Template:       chicago
+
+This is the child theme for Chicago theme, generated with Generate Child Theme plugin by catchthemes.
+
+Right to Left text support.
+*/
+@import url("../twentyseventeen/rtl.css");
