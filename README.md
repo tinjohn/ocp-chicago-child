@@ -17,6 +17,10 @@ Installation
   * add header image
   * set color (color pane) to light / hell
 
+Troubleshooting
+----------------
+* if there was any difference to the theme screenshot, try to import chicago-export.dat to the theme using the import function provided in the customizer after installing and activating the WordPress plugin [Customizer Export/Import](https://de.wordpress.org/plugins/customizer-export-import/) by The Beaver Builder Team.
+
 
 About
 ---------------
