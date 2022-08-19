@@ -1,7 +1,7 @@
 # ocp-chicago-child
-Wordpress child theme for Chicago template
+Wordpress child theme for [Chicago theme](https://de.wordpress.org/themes/chicago/) by Catch Plugins
 
-Due to little success with the manual creation of a really working chicago theme based child theme, the skeleton was created with the help of Catch Plugins own child theme generator wordpress plugin: [Generate Child Theme](https://de.wordpress.org/plugins/generate-child-theme/).  
+Due to little success with the manual creation of a working child theme based on an already customized chicago theme, the skeleton was created with the help of Catch Plugins own child theme generator WordPress plugin: [Generate Child Theme](https://de.wordpress.org/plugins/generate-child-theme/).  
 
 Requirements
 -------------
