@@ -81,11 +81,12 @@ width: 100%;
 	float: left;
 	margin-top: 0px;
 	margin-bottom: 10px;
-	padding-right: 10px;
 	position: relative;
 	width: 82%;
 	z-index: 2;
 	border-radius: 150px 150px 0 0;
+  padding-right: 80px;
+  padding-left: 80px;
 }
 
 .widget-area {
@@ -109,17 +110,22 @@ width: 100%;
 	display: none;
 }
 a, .comment-metadata a {
-  /* without !imporant remains blue from chicago light.css
-  anyway kind of nice */
 	color: #921a22;
 	text-decoration: none;
 }
+
+
 a:hover, .comment-metadata a:hover {
+
 	color: var( --ocp-color );
+
 }
+
+
 .entry-content a:not(.more-link):not(.button):not(.wp-block-button__link), .entry-summary a:not(.more-link):not(.button):not(.wp-block-button__link), .ew-about a:not(.more-link):not(.button), .widget_text a:not(.more-link):not(.button), .comment-content a {
 	text-decoration: none;
 }
+
 .nostyle {
 	margin-left: 0px;
  list-style: none;
@@ -130,11 +136,13 @@ a:hover, .comment-metadata a:hover {
 .site-copyright {
 	color: #fff;
 }
+
 .attachment-thumbnail {
 	filter: brightness(100%);
 }
 .attachment-thumbnail:hover { 	filter: brightness(75%);
 }
+
 .ocpliststyle {
   background-color: #fff;
 	border-radius: 10% 0 0 0;
@@ -178,9 +186,23 @@ color: var(--ocp-color-gedeckt);
     background-color: var(--ocp-color-gedeckt);
 }
 
+.wp-block-file__button {
+	background-color: #d72733 !important;
+    border: 1px solid #ddd;
+    color: #fff !important;
+    font-size: 1em;
+    padding: 10px 15px;
+    text-transform: none;
+    letter-spacing: 0px;
+    line-height: 1.7;
+}
+
 @media screen and (max-width: 790px) {
 	#content .content-area {
 		width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+
 	}
 	.ocpliststyle {
   background-color: #fff;
